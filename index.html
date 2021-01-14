@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>jquery slider</title>
+	
+	<link rel="stylesheet" type="text/css" href="css/slick.css">
+	<link rel="stylesheet" type="text/css" href="css/slick-theme.css">
+	<link rel="stylesheet" type="text/css" href="css/unslider.css">
+	<link rel="stylesheet" type="text/css" href="css/unslider-dots.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+	<link rel="stylesheet" type="text/css" href="css/accordion.css">
+</head>
+<body>
+<div class="container">
+	<div class="all responsive">
+		<img class="cl_1" src="image/images (1).jpg">
+		<img class="cl_1" src="image/images (2).jpg">
+		<img class="cl_1" src="image/images.jpg">
+		<img class="cl_1" src="image/post-1.jpg">
+		<img class="cl_1" src="image/post-2.jpg">
+		<img class="cl_1" src="image/post-3.jpg">
+	</div>
+</div>
+
+<div class="my-accordion">
+  <article class="accrdion-entry">
+    <header class="accrdion-header">
+      Accordion Header 1
+    </header>
+    <div class="accrdion-content">
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque pellentesque ligula at ipsum laoreet condimentum. Morbi euismod nibh a purus gravida, eget mollis diam ornare. Maecenas eu tortor massa. Nullam vel posuere risus, in venenatis metus. Sed maximus metus dolor, at pellentesque ipsum pretium sed. Pellentesque sodales vel lacus vitae molestie. In luctus tellus orci, quis molestie massa cursus sit amet. Quisque nec sem ante. Suspendisse id accumsan arcu, et consequat turpis. Phasellus sit amet mi erat. Phasellus eu lectus molestie, ullamcorper metus eu, porta quam. Mauris porta purus eget ante pellentesque, at vestibulum orci sodales. Sed in arcu quis lacus pretium egestas dignissim sed ex.
+
+Etiam sit amet lorem rhoncus, mattis quam a, consequat dui. Suspendisse non rhoncus erat. Praesent accumsan, felis eu venenatis volutpat, purus metus faucibus ipsum, vel cursus lectus erat ac erat. Integer rhoncus eu metus sit amet hendrerit. Sed et nunc enim. Sed tempor, orci ut malesuada viverra, ex felis vestibulum est, quis auctor odio diam vel orci. Pellentesque neque arcu, blandit id laoreet ac, ullamcorper quis erat. Suspendisse at placerat arcu.
+
+Quisque porta vulputate mi, id imperdiet purus ultrices eu. Nullam volutpat eros sapien, sed finibus eros condimentum ac. Sed vitae massa et risus volutpat mollis. Curabitur iaculis mauris sapien, sit amet egestas arcu placerat eu. Aliquam non leo eros. Pellentesque rhoncus quis mi quis sodales. Nullam sit amet orci ullamcorper, imperdiet tellus et, aliquet mi. Maecenas urna tortor, elementum vitae nibh nec, rhoncus convallis lectus. Phasellus aliquet vitae velit quis euismod.
+
+Vivamus at semper magna. In dapibus augue lobortis felis porttitor, eu lacinia felis congue. Suspendisse potenti. Nulla consectetur lacus et lectus commodo molestie. Nunc vitae convallis turpis. Mauris congue, turpis id molestie varius, odio velit posuere lacus, a viverra leo diam et urna. Sed et tellus id velit condimentum convallis. In vitae libero ut tortor gravida blandit et ac felis. Donec egestas efficitur risus, eget suscipit justo imperdiet et. Suspendisse sapien dui, euismod eget convallis eu, fringilla at diam. Ut consectetur ante in urna dignissim, eu laoreet orci viverra.</p>
+      </div>
+  </article>
+
+
+  <article class="accrdion-entry">
+    <header class="accrdion-header">
+      Accordion Header 2
+    </header>
+    <div class="accrdion-content">
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque pellentesque ligula at ipsum laoreet condimentum. Morbi euismod nibh a purus gravida, eget mollis diam ornare. Maecenas eu tortor massa. Nullam vel posuere risus, in venenatis metus. Sed maximus metus dolor, at pellentesque ipsum pretium sed. Pellentesque sodales vel lacus vitae molestie. In luctus tellus orci, quis molestie massa cursus sit amet. Quisque nec sem ante. Suspendisse id accumsan arcu, et consequat turpis. Phasellus sit amet mi erat. Phasellus eu lectus molestie, ullamcorper metus eu, porta quam. Mauris porta purus eget ante pellentesque, at vestibulum orci sodales. Sed in arcu quis lacus pretium egestas dignissim sed ex.</p>
+      </div>
+  </article>
+  <article class="accrdion-entry">
+    <header class="accrdion-header" >
+      Accordion Header 3
+    </header>
+    <div class="accrdion-content">
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque pellentesque ligula at ipsum laoreet condimentum. Morbi euismod nibh a purus gravida, eget mollis diam ornare. Maecenas eu tortor massa. Nullam vel posuere risus, in venenatis metus. Sed maximus metus dolor, at pellentesque ipsum pretium sed. Pellentesque sodales vel lacus vitae molestie. In luctus tellus orci, quis molestie massa cursus sit amet. Quisque nec sem ante. Suspendisse id accumsan arcu, et consequat turpis. Phasellus sit amet mi erat. Phasellus eu lectus molestie, ullamcorper metus eu, porta quam. Mauris porta purus eget ante pellentesque, at vestibulum orci sodales. Sed in arcu quis lacus pretium egestas dignissim sed ex.</p>
+      </div>
+  </article>
+  ...
+</div>
+
+
+<div id="my-accordion" class="accordion1">
+  <div class="group">
+    <a class="control" href="#">Accordion #1 <span class="expand">&#9660;</span><span class="collapse">&#9650;</span></a>
+    <div class="box">
+      <div class="inner">
+        Accordion 1 Content
+      </div>
+    </div>
+  </div>
+  <div class="group">
+    <a class="control" href="#">Accordion #2 <span class="expand">&#9660;</span><span class="collapse">&#9650;</span></a>
+    <div class="box">
+      <div class="inner">
+        Accordion 2 Content
+      </div>
+    </div>
+  </div>
+  <div class="group">
+    <a class="control" href="#">Accordion #3 <span class="expand">&#9660;</span><span class="collapse">&#9650;</span></a>
+    <div class="box">
+      <div class="inner">
+        Accordion 3 Content
+      </div>
+    </div>
+  </div>
+</div>
+
+	<div class="demo">
+<ul style="list-style: none;">
+
+<li style="background-image: url('image/post-1.jpg'); background-repeat: no-repeat; background-size: cover; width: 100%;height:500px;">
+<h1>Title 1</h1>
+<p>Despite being small, Unslider is very flexible and extensible: you can change pretty much anything via options/settings.</p>
+</li>
+
+<li style="background-image: url('image/post-2.jpg'); background-repeat: no-repeat; background-size: cover; width: 100%;height:500px;">
+<h1>Title 2</h1>
+<p>Unslider is very flexible and extensible: you can change pretty much anything via options/settings.</p>
+</li>
+
+
+
+</ul>
+</div>
+
+<article class="slider">
+
+  <section class="slide">
+    <img src="image/photo-3.jpg" alt="">
+    <div class="slide-content">
+      <p class="slide-title">Slide 1</p>
+    </div>
+  </section>
+
+  <section class="slide">
+    <img src="image/photo-1.jpg" alt="">
+    <div class="slide-content">
+      <p class="slide-title">Slide 2</p>
+    </div>
+  </section>
+
+  <section class="slide">
+    <img src="image/photo-2.jpg" alt="">
+    <div class="slide-content">
+      <p class="slide-title">Slide 3</p>
+    </div>
+  </section>
+
+  <nav class="slider-nav">
+    <span class="prev-slide"></span>
+    <span class="next-slide"></span>
+  </nav>
+  
+</article>
+
+
+<div class="container">
+	<div class="all center">
+		<img class="cl_1" src="image/images (1).jpg">
+		<img class="cl_1" src="image/images (2).jpg">
+		<img class="cl_1" src="image/images.jpg">
+		<img class="cl_1" src="image/photo-1.jpg">
+		<img class="cl_1" src="image/photo-2.jpg">
+		<img class="cl_1" src="image/photo-3.jpg">
+		<img class="cl_1" src="image/post-2.jpg">
+		<img class="cl_1" src="image/post-3.jpg">
+	</div>
+</div>
+<section class="color">
+<div class="container ">
+	<div class="all lazy ">
+		<img class="cl_1" src="image/images (1).jpg">
+		<img class="cl_1" src="image/images (2).jpg">
+		<img class="cl_1" src="image/images.jpg">
+		<img class="cl_1" src="image/photo-1.jpg">
+		<img class="cl_1" src="image/photo-2.jpg">
+		<img class="cl_1" src="image/photo-3.jpg">
+		<img class="cl_1" src="image/post-2.jpg">
+		<img class="cl_1" src="image/post-3.jpg">
+	</div>
+</div>
+</section>
+
+<section style="margin-top: 10px;">
+<canvas id="myClouds"></canvas>
+</section>
+
+<script type="text/javascript" src="js/jquery-3.5.1.min.js"></script>
+<script type="text/javascript" src="js/popper.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/slick.min.js"></script>
+<script type="text/javascript" src="js/my.js"></script>
+<script type="text/javascript" src="js/unslider.js"></script>
+<script type="text/javascript" src="js/slider.js"></script>
+
+<script >
+	$(function() {
+$('.demo').unslider({
+//  Should the slider move on its own or only when
+//  you interact with the nav/arrows?
+//  Only accepts boolean true/false.
+autoplay: false,
+
+//  3 second delay between slides moving, pass
+//  as a number in milliseconds.
+delay: 3000,
+
+//  <a href="https://www.jqueryscript.net/animation/">Animation</a> speed in millseconds
+speed: 750,
+
+//  An easing string to use. If you're using Velocity, use a
+//  Velocity string otherwise you can use jQuery/jQ UI options.
+easing: 'swing', // [.42, 0, .58, 1],
+
+//  Does it support keyboard arrows?
+//  Can pass either true or false -
+//  or an object with the keycodes, like so:
+//  {
+//   prev: 37,
+//   next: 39
+// }
+//  You can call any internal method name
+//  before the keycode and it'll be called.
+keys: {
+  prev: 37,
+  next: 39
+},
+
+//  Do you want to generate clickable navigation
+//  to skip to each slide? Accepts boolean true/false or
+//  a callback function per item to generate.
+nav: true,
+
+//  Should there be left/right arrows to go back/forth?
+//   -> This isn't keyboard support.
+//  Either set true/false, or an object with the HTML
+//  elements for each arrow like below:
+arrows: {
+  prev: '<a class="' + self._ + '-arrow prev">←</a>',
+  next: '<a class="' + self._ + '-arrow next">→</a>'
+},
+
+//  How should Unslider animate?
+//  It can do one of the following types:
+//  "fade": each slide fades in to each other
+//  "horizontal": each slide moves from left to right
+//  "vertical": each slide moves from top to bottom
+animation: 'horizontal',
+
+//  If you don't want to use a list to display your slides,
+//  you can change it here. Not recommended and you'll need
+//  to adjust the CSS accordingly.
+selectors: {
+  container: 'ul:first',
+  slides: 'li'
+},
+
+//  Do you want to animate the heights of each slide as
+//  it moves
+animateHeight: false,
+
+//  Active class for the nav
+activeClass: self._ + '-active',
+
+//  Have swipe support?
+//  You can set this here with a boolean and always use
+//  initSwipe/destroySwipe later on.
+swipe: true
+});
+});
+</script>
+<script type="text/javascript" src="js/accrdion.js"></script>
+<script>
+	$(function(){
+  $('.my-accordion').accrdion();
+});
+</script>
+ <script src="js/klouds.min.js"></script>
+    <script>
+      // vanilla javascript
+klouds.create({
+  selector: '#myClouds'
+});
+
+// jQuery plugin
+$(function(){
+  $('#myClouds').Klouds();
+});
+$('#myClouds').Klouds({
+  speed: 1
+});
+$('#myClouds').Klouds({
+  layerCount: 3
+});
+
+$('#myClouds').Klouds({
+  cloudColor1: [25, 178, 204],
+  cloudColor2: [255, 255, 255]
+});
+
+const instance = $('#myClouds').Klouds();
+
+// start the animation
+instance.start()
+
+// stop the animation
+instance.stop()
+
+// get the current animation speed
+instance.getSpeed()
+
+// set the animation speed
+instance.setSpeed(speed) 
+
+// get the number of cloud layers
+instance.getLayerCount()
+
+// set the number of cloud layers
+instance.setLayerCount(count)
+
+// get the background color
+instance.getBgColor()
+
+// set the background color
+instance.setBgColor(color)
+
+// get the color 1
+instance.getCloudColor1()
+
+// set the color 1
+instance.setCloudColor1(color)
+
+// get the color 2
+instance.getCloudColor2()
+
+// set the color 2
+instance.setCloudColor2(color)
+
+ </script>
+</body>
+</html>
